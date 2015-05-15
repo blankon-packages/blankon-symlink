@@ -1,0 +1,12 @@
+Source: blankon-symlink
+Section: misc
+Priority: optional
+Maintainer: BlankOn Developers <blankon-dev@googlegroups.com>
+Build-Depends: debhelper (>= 7.0.50~), cdbs
+Standards-Version: 3.9.4
+
+Package: blankon-symlink
+Architecture: all
+Depends: ${misc:Depends}, 
+Description: BlankOn Symlink
+ Symlink BlankOn, developed by BlankOn project.
